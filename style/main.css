@@ -1,0 +1,141 @@
+body {
+  /* width: 1920px; */
+  height: 1446px;
+  /* align-items: center; */
+  /* align-content: center; */
+  background-color: #181818;
+  /* color: white; */
+  /* font-family: Arial, sans-serif; */
+
+  color: var(--White, #ECECEC);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+header {
+  /* align-content: center; */
+  /* align-items: center; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* padding: 10px 20px; */
+  /* background-color: #181818; */
+  /* color: #fff; */
+  /* font-size: 16px; */
+  /* width: 1200px; */
+  height: 75px;
+  flex-shrink: 0;
+}
+
+header img {
+  height: 50px;
+}
+
+button {
+  background-color: #181818;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 1920px;
+  /* margin: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.right_logo_text {
+  padding-left: 15px;
+  max-width: 150px;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+}
+
+.add_review {
+  display: inline-flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--Orange, #FF9C07);
+}
+
+.text_add_review {
+  margin-top: 65px;
+
+  /* color: #FFF; */
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  /* font-style: normal; */
+  font-weight: 600;
+  line-height: 20px;
+  /* 125% */
+  /* display: inline-flex; */
+  padding: 20px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 20px; */
+  border-radius: 10px;
+  background: var(--Orange, #FF9C07);
+  /* height: 40%; */
+}
+
+.h30px {
+  height: 30px;
+}
+
+.h40px {
+  height: 40px;
+
+}
+
+.h131px {
+  height: 131px;
+  display: contents;
+  margin-top: 65px;
+}
+
+.top {
+  margin-top: 65px;
+  color: var(--White, #ECECEC);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  /* 125% */
+}
+
+.must_view {
+  color: var(--Orange, #FF9C07);
+
+  display: flex;
+  width: 1200px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--Orange, #FF9C07);
+}
+
+.down {
+  display: contents;
+
+}

@@ -1,0 +1,90 @@
+body {
+    /* width: 1920px; */
+    height: 1446px;
+    background-color: #181818;
+    color: var(--White, #ECECEC);
+    
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+}
+  
+header{
+    /* width: 1200; */
+    margin-top: 30px;
+    height: 75px;
+}
+
+button{
+    background-color: #181818;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.box{
+    position:relative;
+    width: 1200px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.logoname{
+    padding-left: 15px;
+    max-width: 150px;
+    display: flex;
+}
+
+.Large{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px; /* 125% */ 
+}
+
+.add_review {
+    display: inline-flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--Orange, #FF9C07);
+    text-align: right;
+  }
+
+  .must_view{
+    margin-top: 30px;
+    display: flex;
+    width: 1200px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--Orange, #FF9C07);
+  }
+
+  .end{
+    width: 1200px;
+    height: 99px;
+    flex-shrink: 0;
+    
+  }
+
+  .mail{
+    color: var(--Orange, #FF9C07);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
