@@ -5,6 +5,7 @@
 }
 
 body {
+  max-width: 1920px;
     width: 99%;
     /* height: 1446px; */
     background-color: #181818;
@@ -15,6 +16,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;  
+    margin: auto;
 }
   
 header{
