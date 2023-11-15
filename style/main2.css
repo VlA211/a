@@ -1,11 +1,16 @@
+:root {
+  --background-color: #181818;
+  --width:80%;
+  --pad:5%
+}
+
 body {
-    /* width: 1920px; */
-    height: 1446px;
+    width: 99%;
+    /* height: 1446px; */
     background-color: #181818;
     color: var(--White, #ECECEC);
     
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: Inter; */
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -13,12 +18,12 @@ body {
 }
   
 header{
-    /* width: 1200; */
+    width: var(--width);
     margin-top: 30px;
     height: 75px;
 }
 
-button{
+.reg{
     background-color: #181818;
     color: #fff;
     border: none;
@@ -30,13 +35,20 @@ button{
 }
 
 .box{
-    position:relative;
-    width: 1200px;
-    flex-shrink: 0;
+    width: var(--width);
+    /* flex-shrink: 0; */
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+}
+
+.line{
+  margin-bottom: 30px;
+  width: 100%;
+height: 1px;
+flex-shrink: 0;
+background: var(--Element, rgba(255, 255, 255, 0.10));
 }
 
 .logoname{
@@ -65,7 +77,7 @@ button{
   .must_view{
     margin-top: 30px;
     display: flex;
-    width: 1200px;
+    width: 100%;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -76,10 +88,11 @@ button{
   }
 
   .end{
-    width: 1200px;
+    width: 100%;
     height: 99px;
     flex-shrink: 0;
-    
+    justify-content: space-between;
+    display: flex;
   }
 
   .mail{
@@ -90,3 +103,155 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
   }
+
+  .image{
+    width: 184px;
+    height: 276px;
+    flex-shrink: 0;
+  }
+
+  .descript{
+    height: 52px;
+    align-self: stretch;
+    overflow: hidden;
+color: #FFF;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 130% */
+  }
+
+  .date{
+    align-self: stretch;
+    color: var(--Gray-2, #989898);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+  }
+
+  .detailt{
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+  border: 2px solid var(--Orange, #FF9C07);
+  }
+
+  .grid-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 3 колонки одинаковой ширины */
+    grid-gap: 20px; /* расстояние между элементами сетки */
+  }
+  
+  .grid-item {
+    display: flex;
+    width: 204px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 20px;
+    background: #242424;
+    /* другие стили элементов сетки */
+  }
+  
+
+  /* @media(max-width: 1232px){
+    .end{
+        width: 920px;
+    }
+    .must_view{
+      width: 920px;
+  }
+  .line{
+    width: 920px;
+}
+
+  .box{
+    width: 920px;
+  }
+  }
+
+  @media(max-width: 980px){
+    .end{
+        width: 90%;
+    }
+    .must_view{
+      width: 90%;
+  }
+  .line{
+    width: 90%;
+}
+
+  .box{
+    width: 90%;
+  }
+  }
+
+  @media(max-width: 750px){
+    .end{
+        width: 500px;
+    }
+    .must_view{
+      width: 500px;
+  }
+  .line{
+    width: 500px;
+    
+  }
+  .Large{
+    font-size: 24px;
+  }
+
+  .box{
+    width: 500px;
+  }
+  }
+
+  @media(max-width: 550px){
+    .end{
+        width: 320px;
+    font-size: 12px;
+    }
+    .must_view{
+      width: 320px;
+    font-size: 12px;
+
+  }
+
+  .mail{
+    font-size: 12px;
+
+  }
+  .line{
+    width: 320px;
+}
+
+  .box{
+    width: 320px;
+    font-size: 12px;
+  }
+
+  button{
+    font-size: 12px;
+  }
+
+  .Large{
+    font-size: 18px;
+  }
+
+  .add_review{
+    
+  }
+  }
+
+   */
